@@ -1,3 +1,5 @@
+;Program to implement macro.
+
 print macro m1
 mov dx,offsset m1
 mov ah,9
