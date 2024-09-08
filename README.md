@@ -1,2 +1,2 @@
 # LAB_TASK_8
-ASSEMBLY LANGUAGE PROGRAMMING | BSCS-403 | UBIT.
+-> Program to implement procedure. ->Program to implement macro. ->Program to reverse right angle triangle pattern.
