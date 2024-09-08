@@ -1,4 +1,5 @@
-;REVERSE RIGHT ANGLE TRIANGLE PATTERN
+;Program to reverse right angle triangle pattern.
+
 DOSSEG
 .MODEL SMALL
 .STACK 100H
@@ -6,7 +7,7 @@ DOSSEG
 .CODE
 MAIN PROC
 MOV CX, 6
-MOV BX, CX ;BL: number of stars in a line
+MOV BX, CX         
 ADD BX, 1
 OUTER:
 PUSH CX
@@ -18,13 +19,12 @@ MOV AH, 2
 INT 21H
 LOOP INNER
 ;ENTER START
-MOV DL,10 ;space
+MOV DL,10 
 MOV AH, 2
 INT 21H
-MOV DL, 13 ;carriage return
+MOV DL, 13 
 MOV AH, 2
 INT 21H
-;ENTER END
 POP CX
 LOOP OUTER
 MOV AH, 4CH
