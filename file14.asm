@@ -1,3 +1,5 @@
+;Program to implement procedure.
+
 Dosseg
 .model small
 .stack 100h
@@ -38,19 +40,6 @@ ret
 enterkey endp
 end main
 
-
-D:\>D:\tests
-ASSEMBLY
-LANGUAGE
-PROGRAMMING
-D:\>_
-
-
-
-D:\>D:\tests
-WASIF
-KHAN
-D:\>_
 
 
 
